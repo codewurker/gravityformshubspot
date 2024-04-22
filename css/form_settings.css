@@ -1,0 +1,96 @@
+
+.gform-routing-row{
+    vertical-align: top;
+}
+
+#assignees,
+#editable_fields{
+    position: absolute;
+    left: -9999px;
+}
+
+.rtl #assignees,
+.rtl #editable_fields{
+    right: -9999px;
+    left: auto;
+}
+
+table.gforms_form_settings th{
+    border-left: 0;
+    padding-left: 0!important;
+}
+
+
+
+table.gform-routings thead th{
+    padding: 0;
+}
+
+table.gform-routings tr.gform-routing-row td{
+    vertical-align: top;
+}
+
+table.gform-routings tr.gform-routing-row td .repeater-buttons{
+    white-space: nowrap;
+}
+
+.repeater-buttons{
+    display:inline-block;
+}
+.gform-routing-owners,
+.gform-routing-field{
+    width:100%;
+    min-width:150px;
+}
+.gform-routing-operator{
+    width:120px;
+}
+.gform-routing-value{
+    width:190px;
+}
+
+html:not([dir="rtl"]) .gform-routings__heading {
+	text-align: left;
+}
+
+html[dir="rtl"] .gform-routings__heading {
+	text-align: right;
+}
+
+#gaddon-setting-row-additional_fields > th, #gaddon-setting-row-contact_owner_conditional > th {
+    display:none !important;
+}
+
+.contact_owner_section {
+    display:none;
+}
+
+.add-item {
+    margin-left: 6px;
+}
+.add-item, .remove-item {
+    position: relative;
+    color: #444;
+    top: 3px;
+}
+
+#feed_condition_conditional_logic_container {
+    margin-top:10px;
+}
+
+.gform-routings-field__buttons {
+	position: relative;
+	vertical-align: middle;
+	width: 40px;
+}
+
+.gform-routings-field__buttons .repeater-buttons {
+	align-items: center;
+	display: flex;
+	flex: 1 0;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	height: 100%;
+	width: 100%;
+}

@@ -1,0 +1,31 @@
+#deauth_scope {
+    display: none;
+    margin-top: 18px;
+}
+
+.deauth_button {
+    margin-top: 0.5em !important;
+}
+
+#gform_hubspot_deauth_button {
+    border: 1px solid #9E0B0F;
+    background: #9E0B0F;
+    color: #FFF;
+    -webkit-box-shadow: inset 0 2px 5px -3px rgba( 173, 12, 17, 0.5 );
+    box-shadow: inset 0 2px 5px -3px rgba( 173, 12, 17, 0.5 );
+    text-shadow: none;
+}
+
+#tab_gravityformshubspot table.gforms_form_settings > tbody > tr > th {
+    padding: 0;
+    width: 0;
+}
+
+#tab_gravityformshubspot table.gforms_form_settings #gform-settings-save,
+#tab_gravityformshubspot .gform-settings-save-container {
+    display: none;
+}
+
+#last_cache_clearance {
+	font-size: 0.75rem;
+}

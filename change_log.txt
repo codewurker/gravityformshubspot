@@ -1,0 +1,72 @@
+### 2.1.0 | 2024-03-14
+- Updated the additional contact field settings to use the generic field map instead of the deprecated dynamic field map field type.
+- Updated to use the v3 Owners API before v2 is sunset in August 2024.
+- Updated the minimum Gravity Forms version to 2.7.1.
+- Fixed a JavaScript error on the feed configuration page with Gravity Forms 2.8+.
+
+### 2.0.0 | 2023-11-01
+- Fixed a bug where feeds can't be created or edited due to an invalid_lifecycle_stage error.
+
+
+### 1.9 | 2023-04-06
+- Added support for async (background) feed processing to improve form submission performance.
+- Fixed an issue where auth token refresh requests continue to occur after the app is uninstalled from within the connected HubSpot account.
+- Fixed an issue where unnecessary auth token refresh requests can occur during feed processing.
+- Fixed an issue where the connect button is displayed on the settings page when API requests are being rate limited.
+- Fixed an issue that causes the API to initialize on all front-end pages containing forms and all admin pages.
+- Fixed an issue where multiple auth token refresh requests can occur around the same time.
+- Fixed an issue where HubSpot forms are recreated when reconnecting to the same HubSpot account.
+- Fixed a fatal error that can occur when attempting to reconnect the add-on during an API outage.
+
+
+### 1.8 | 2022-11-3
+- Fixed an issue with lifecycle stages which causes feeds to error when being saved or updated.
+- Fixed a typo in the "clear cache" setting description.
+
+
+### 1.7 | 2021-11-10
+- Updated the styling for the disconnect alert messaging.
+- Fixed an issue where the disconnect from HubSpot button doesn't show when used with Gravity Forms 2.4.
+- Fixed an issue where the lead status and lifecycle stage fields are missing from the feed configuration page.
+- Fixed an issue where the add-on is disconnected after HubSpot reduced auth token lifespan from 6 hours to 30 minutes.
+
+
+### 1.6 | 2021-10-12
+- Added a button in the add-on settings page to manually clear the contact custom properties cache.
+- Added support for mapping single checkbox, multiple checkboxes, dropdown select, and radio select type HubSpot properties.
+- Added security enhancements.
+- Fixed an issue where a notice appears on the feed settings edit page.
+- Fixed fatal errors that can occur when the Hubspot API returns an error while updating feed settings.
+- Fixed an issue where authentication may not complete after attempting a connection with HubSpot.
+- Fixed issue where conditional Contact Owner feed settings are not getting saved.
+
+
+### 1.5 | 2020-09-23
+- Added support for Gravity Forms 2.5.
+- Fixed PHP warnings and notices which occur when the request to the HubSpot API to get the contact properties fails.
+
+
+### 1.4 | 2020-07-14
+- Added security enhancements.
+
+
+### 1.3 | 2020-05-18
+- Added translations for Hebrew, Hindi, Japanese, and Turkish.
+- Added support for feed duplication.
+- Fixed a PHP 7.4 notice which can occur when generating the HubSpot form for a feed outside the Form Settings area.
+- Fixed an issue with the position in the Form Settings menu when multiple add-ons are installed.
+
+
+### 1.2 | 2019-10-23
+- Updated the text in the add-on settings.
+- Updated the submission process to always send the IP address to Hubspot unless saving of the submitter IP is disabled in a form's personal data settings.
+- Fixed an issue where references to the add-on would appear as "Gravity Forms HubSpot Add-On Add-On."
+- Fixed an issue where HubSpot users without names display as empty labels when assigning contact owner(s) for a feed.
+
+
+### 1.1 | 2019-08-07
+- Added security enhancements.
+
+
+### 1.0 | 2019-07-18
+- All new!
